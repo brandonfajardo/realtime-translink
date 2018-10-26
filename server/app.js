@@ -16,7 +16,6 @@ const getBusLocations = socket => {
           http://api.translink.ca/rttiapi/v1/buses?apikey=${API_KEY}`
       )
       .then(({ data }) => {
-        console.log("updated");
         socket.emit("BusLocationsUpdated", data);
       });
   } catch (error) {
