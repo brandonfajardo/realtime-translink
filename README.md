@@ -1,25 +1,8 @@
-# ReduxSimpleStarter
+Realtime app that fetches Translink bus locations every second
 
-Interested in learning [Redux](https://www.udemy.com/react-redux/)?
+npm install in root and server<br>
+npm start in root (localhost:8080) / node app.js inside of server folder
 
-### Getting Started
-
-There are two methods for getting started with this repo.
-
-#### Familiar with Git?
-Checkout this repo, install dependencies, then start the gulp process with the following:
-
-```
-> git clone https://github.com/StephenGrider/ReduxSimpleStarter.git
-> cd ReduxSimpleStarter
-> npm install
-> npm start
-```
-
-#### Not Familiar with Git?
-Click [here](https://github.com/StephenGrider/ReactStarter/releases) then download the .zip file.  Extract the contents of the zip file, then open your terminal, change to the project directory, and:
-
-```
-> npm install
-> npm start
-```
+* Accidentally used this boilerplate https://github.com/StephenGrider/ReduxSimpleStarter<br>
+a. Learned socket.io<br>
+b. A lot of time was spent trying to get superagent to work, I decided to use axios
