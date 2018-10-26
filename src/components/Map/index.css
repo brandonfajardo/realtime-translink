@@ -1,0 +1,11 @@
+.Map {
+  height: 100%;
+  width: 100%;
+}
+
+.Marker {
+  height: 12px;
+  width: 12px;
+  border-radius: 6px;
+  background: black;
+}
